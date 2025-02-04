@@ -38,6 +38,7 @@ window.addEventListener('load', () => {
                     const url_icon = `https://openweathermap.org/img/wn/${icon_code}.png`
                     console.log(url_icon) */
 
+                    
                     //iconos dinamicos
                     let icon_code = data.weather[0].icon
                     const url_icon = `https://openweathermap.org/img/wn/${icon_code}.png`
