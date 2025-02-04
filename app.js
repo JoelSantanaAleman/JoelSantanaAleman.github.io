@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
             lat = position.coords.latitude;
 
             // mediante longitud y latitud
-            const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=5647987e7045817570b98f5b79b0eb8d`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=5647987e7045817570b98f5b79b0eb8d`;
 
             //mediante ubicacion por ciudad
             //const url = `https://api.openweathermap.org/data/2.5/weather?q=Firgas&lan=es&units=metric&appid=5647987e7045817570b98f5b79b0eb8d`;
