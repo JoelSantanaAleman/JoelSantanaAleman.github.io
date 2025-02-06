@@ -13,6 +13,7 @@ window.addEventListener('load', () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
             lon = position.coords.longitude;
+            
             lat = position.coords.latitude;
 
             // mediante longitud y latitud
